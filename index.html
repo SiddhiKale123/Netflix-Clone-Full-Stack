@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h1 class="logo">NETFLIX</h1>
+    <button class="signin">Sign In</button>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="overlay">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+
+        <div class="input-box">
+            <input type="email" id="email" placeholder="Enter your email"><br><br>
+            <input type="password" id="password" placeholder="Enter password">
+            <button onclick="login()">Get Started</button>
+        </div>
+    </div>
+</section>
+
+<!-- MOVIE SECTION -->
+<section class="movies">
+    <h2>Popular on Netflix</h2>
+    <div id="movies" class="row"></div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Netflix Clone © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+<div id="movies"></div>
+</body>
+</html>
